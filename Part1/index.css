@@ -21,10 +21,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      
   }
 
   table {
       padding-top: 5vh;
+ 
   }
 
 .row td {
@@ -33,4 +35,15 @@
     border: 1px solid #000;
     text-align: center;
     font-size: 2em;
+    border-radius: 10%;
+    background-color: white;
+    padding: 0.5vh;
+
+}
+.reset{
+    float: right;
+    height: 60px;
+    width: 120px;
+    border-radius: 10%;
+    background-color: white;
 }
